@@ -62,24 +62,40 @@ const Banner = () => {
               the forefront of technology trends. Let's collaborate to turn your
               vision into reality.
             </motion.p>
-            <div className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
+
+            <motion.div 
+             variants={fadeIn("up", 0.6)}
+             initial="hidden"
+             whileInView={'show'}
+             viewport={{once:false, amount:0.7}}
+            className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
               <button className="btn btn-lg">Contact me</button>
               <a href="#" className="text-gradient btn-link">
                 My Portfolio
               </a>
-            </div>
+            </motion.div>
             {/* socials */}
-            <div className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
+            <motion.div 
+             variants={fadeIn("up", 0.7)}
+             initial="hidden"
+             whileInView={'show'}
+             viewport={{once:false, amount:0.7}}
+            className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
               <a href="#">
                 <FaGithub />
               </a>
               <a href="#">
                 <FaDribbble />
               </a>
-            </div>
+            </motion.div>
           </div>
           {/* IMAGE */}
-          <div className="hidden lg:flex flex-1 max-w-[320px] lg:max-w[482px]">
+          <motion.div 
+           variants={fadeIn("down", 0.5)}
+           initial="hidden"
+           whileInView={'show'}
+           viewport={{once:false, amount:0.7}}
+          className="hidden lg:flex flex-1 max-w-[320px] lg:max-w[482px]">
             {/* <img
               className="w-32 h-32 md:w-400 md:h-400 rounded-full overflow-hidden"
               src={Image}
@@ -90,7 +106,7 @@ const Banner = () => {
               src={Image}
               alt="Okanphoto"
             />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
