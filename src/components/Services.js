@@ -11,18 +11,18 @@ import { fadeIn } from "../variants";
 const services = [
   {
     name: "Full Stack Deployment with AWS",
-    description: "Performing full-stack deployment using Amazon services such as Amplify, Lambda functions, API Gateways, CORS configurations, and S3 buckets.",
-    // link: "learn more",
+    description:
+      "Performing full-stack deployment using Amazon services such as Amplify, Lambda functions, API Gateways, CORS configurations, and S3 buckets.",
   },
   {
     name: "Web Development",
-    description: "Meeting all kinds of frontend needs using React, JavaScript, Tailwind, CSS, and HTML.",
-    // link: "learn more",
+    description:
+      "Meeting all kinds of frontend needs using React, JavaScript, Tailwind, CSS, and HTML.",
   },
   {
     name: "Responsive Designs",
-    description: "Designs are responsive to all devices and adhere to friendly UI/UX principles with up-to-date information.",
-    // link: "learn more",
+    description:
+      "Designs are responsive to all devices and adhere to friendly UI/UX principles with up-to-date information.",
   },
 ];
 
@@ -32,12 +32,13 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           {/* text &  image */}
-          <motion.div 
-           variants={fadeIn("right", 0.3)}
-           initial="hidden"
-           whileInView={"show"}
-           viewport={{ once: false, amount: 0.3 }}
-          className="flex-1 lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0">
+          <motion.div
+            variants={fadeIn("right", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+            className="flex-1 lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0"
+          >
             <h2 className="h2 text-accent mb-6">What I Do.</h2>
             <h3 className="h3 max-w-[455px] mb-16">
               I'am a Freelance Web Developer.
@@ -45,22 +46,34 @@ const Services = () => {
             {/* <button className="btn btn-sm">See my work</button> */}
             <h2 className="h2 text-accent mb-6">Skills</h2>
             <div className="flex flex-col">
-            <span className="font-primary font-semibold text-[18px] mb-4 leading-[46px]">React</span>
-            <span className="font-primary font-semibold text-[18px] mb-4 leading-[46px]">Vanillia JavaScript</span>
-            <span className="font-primary font-semibold text-[18px] mb-4 leading-[46px]">Tailwind</span>
-            <span className="font-primary font-semibold text-[18px] mb-4 leading-[46px]">CSS</span>
-            <span className="font-primary font-semibold text-[18px] mb-4 leading-[46px]">HTML</span>
-            <span className="font-primary font-semibold text-[18px] mb-4 leading-[46px]">AWS Services</span>
+              <span className="font-primary font-semibold text-[18px] mb-4 leading-[46px]">
+                React
+              </span>
+              <span className="font-primary font-semibold text-[18px] mb-4 leading-[46px]">
+                Vanillia JavaScript
+              </span>
+              <span className="font-primary font-semibold text-[18px] mb-4 leading-[46px]">
+                Tailwind
+              </span>
+              <span className="font-primary font-semibold text-[18px] mb-4 leading-[46px]">
+                CSS
+              </span>
+              <span className="font-primary font-semibold text-[18px] mb-4 leading-[46px]">
+                HTML
+              </span>
+              <span className="font-primary font-semibold text-[18px] mb-4 leading-[46px]">
+                AWS Services
+              </span>
             </div>
           </motion.div>
           {/* services */}
-          <motion.div 
-           variants={fadeIn("left", 0.5)}
-           initial="hidden"
-           whileInView={"show"}
-           viewport={{ once: false, amount: 0.3 }}
-          
-          className="flex-1">
+          <motion.div
+            variants={fadeIn("left", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+            className="flex-1"
+          >
             {/* services list */}
             <div>
               {services.map((service, index) => {
@@ -79,17 +92,6 @@ const Services = () => {
                         {description}
                       </p>
                     </div>
-                    {/* <div className="flex flex-col flex-1 items-end">
-                      <a
-                        href="#"
-                        className="btn w-9 h-9  mb-[42px] flex justify-center items-center"
-                      >
-                        <BsArrowUpRight />
-                      </a>
-                      <a href="#" className="text-gradient text-sm">
-                        {link}
-                      </a>
-                    </div> */}
                   </div>
                 );
               })}

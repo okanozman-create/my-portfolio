@@ -1,8 +1,6 @@
 import React from "react";
 
-import { FaGithub, FaLinkedin} from "react-icons/fa";
-// images
-// import Logo from '../assets/logo.svg'
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -15,10 +13,6 @@ const Header = () => {
           <a href="https://github.com/okanozman-create">
             <FaGithub />
           </a>
-
-          {/* <img className='w-28 h-auto  bg-purple-900 p-1' src={Logo} alt='' /> */}
-
-          {/* <img width="111" height="48" viewBox="0 0 111 48" fill="none" src={Logo} alt=''/>  */}
         </div>
       </div>
     </header>

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dc5c266d.css",
+    "main.js": "/static/js/main.f80b08eb.js",
+    "static/media/example.png": "/static/media/example.8f815f7dab2e925e5ded.png",
+    "static/media/site-bg.jpg": "/static/media/site-bg.54724d703024833ef9c6.jpg",
+    "static/media/portfolio-img1.png": "/static/media/portfolio-img1.65b23e5c313b18600f24.png",
+    "static/media/okanozmancv-en.pdf": "/static/media/okanozmancv-en.83fc4cd3255057a212fe.pdf",
+    "static/media/ex.jpg": "/static/media/ex.7660f32bf7c169dd31eb.jpg",
+    "index.html": "/index.html",
+    "main.dc5c266d.css.map": "/static/css/main.dc5c266d.css.map",
+    "main.f80b08eb.js.map": "/static/js/main.f80b08eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc5c266d.css",
+    "static/js/main.f80b08eb.js"
+  ]
+}

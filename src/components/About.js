@@ -8,8 +8,6 @@ import { motion } from "framer-motion";
 //variant
 import { fadeIn } from "../variants";
 
-// import ex from '../assets/ex.jpg'
-
 const About = () => {
   const [ref, inView] = useInView({
     threshold: 0.5,
@@ -27,9 +25,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 bg-ex bg-contain bg-no-repeat h-[640px]
           mix-blend-lighten bg-top"
-          >
-           
-          </motion.div>
+          ></motion.div>
 
           {/* text */}
           <motion.div
@@ -43,16 +39,16 @@ const About = () => {
             <h3 className="h3 mb-4">I'am a Freelance Web Developer.</h3>
             <p className="mb-6">
               Starting my software development journey in 2022, I've quickly
-              mastered key web technologies like HTML, CSS, Tailwind, JavaScript,
-              and React, while also gaining self-taught expertise in Amazon
-              Web Services. This experience has honed my critical thinking and
-              problem-solving abilities, essential for innovative web and
-              application development. I'm eager to contribute my determination,
-              technical proficiency, and continuous learning mindset to your
-              projects. As a Junior Frontend Developer, I'm committed to
-              delivering high-quality solutions and staying at the cutting edge
-              of technology trends. Let's collaborate to bring your vision to
-              life.
+              mastered key web technologies like HTML, CSS, Tailwind,
+              JavaScript, and React, while also gaining self-taught expertise in
+              Amazon Web Services. This experience has honed my critical
+              thinking and problem-solving abilities, essential for innovative
+              web and application development. I'm eager to contribute my
+              determination, technical proficiency, and continuous learning
+              mindset to your projects. As a Junior Frontend Developer, I'm
+              committed to delivering high-quality solutions and staying at the
+              cutting edge of technology trends. Let's collaborate to bring your
+              vision to life.
             </p>
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
@@ -66,12 +62,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="flex gap-x-8 items-center">
-              <button className="btn btn-lg">Contact me</button>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
-              </a>
-            </div> */}
           </motion.div>
         </div>
       </div>

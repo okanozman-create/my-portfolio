@@ -13,7 +13,7 @@ import { fadeIn } from "../variants";
 import resume from "../assets/okanozmancv-en.pdf";
 
 const Banner = () => {
-return (
+  return (
     <section
       className="min-h-[85vh] lg:min-h-[78vh] flex items-center"
       id="home"
@@ -54,7 +54,12 @@ return (
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-          Hello, my name is Okan, and I am 36 years old. After years, I finally achieved my dream, and since 2022, I have been programming and writing code on my own. I know I am still at the beginning of the road, and every day I add something new to myself in terms of programming. This is a passion for me. On this page, you can find information about me. Have a nice surf!
+              Hello, my name is Okan, and I am 36 years old. After years, I
+              finally achieved my dream, and since 2022, I have been programming
+              and writing code on my own. I know I am still at the beginning of
+              the road, and every day I add something new to myself in terms of
+              programming. This is a passion for me. On this page, you can find
+              information about me. Have a nice surf!
             </motion.p>
 
             <motion.div
@@ -70,10 +75,6 @@ return (
                   Download CV
                 </a>
               </button>
-
-              {/* <a href="#" className="text-gradient btn-link">
-                My Portfolio
-              </a> */}
             </motion.div>
             {/* socials */}
           </div>
@@ -85,11 +86,6 @@ return (
             viewport={{ once: false, amount: 0.7 }}
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w[482px]"
           >
-            {/* <img
-              className="w-32 h-32 md:w-400 md:h-400 rounded-full overflow-hidden"
-              src={Image}
-              alt="Okanphoto"
-            /> */}
             <img
               className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden"
               src={Image}
