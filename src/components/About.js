@@ -8,6 +8,8 @@ import { motion } from "framer-motion";
 //variant
 import { fadeIn } from "../variants";
 
+// import ex from '../assets/ex.jpg'
+
 const About = () => {
   const [ref, inView] = useInView({
     threshold: 0.5,
@@ -23,10 +25,10 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 bg-about bg-contain bg-no-repeat h-[640px]
+            className="flex-1 bg-ex bg-contain bg-no-repeat h-[640px]
           mix-blend-lighten bg-top"
           >
-            img
+           
           </motion.div>
 
           {/* text */}
@@ -41,8 +43,8 @@ const About = () => {
             <h3 className="h3 mb-4">I'am a Freelance Web Developer.</h3>
             <p className="mb-6">
               Starting my software development journey in 2022, I've quickly
-              mastered key web technologies like HTML, CSS, JavaScript, React,
-              and Tailwind, while also gaining self-taught expertise in Amazon
+              mastered key web technologies like HTML, CSS, Tailwind, JavaScript,
+              and React, while also gaining self-taught expertise in Amazon
               Web Services. This experience has honed my critical thinking and
               problem-solving abilities, essential for innovative web and
               application development. I'm eager to contribute my determination,
@@ -64,12 +66,12 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="flex gap-x-8 items-center">
+            {/* <div className="flex gap-x-8 items-center">
               <button className="btn btn-lg">Contact me</button>
               <a href="#" className="text-gradient btn-link">
                 My Portfolio
               </a>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>
