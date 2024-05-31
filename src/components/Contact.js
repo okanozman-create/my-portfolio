@@ -15,7 +15,7 @@ const Contact = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex justify-sr items-center"
+            className="flex-1 flex justify-center items-center"
           >
             <div>
               <h4 className="text-xl uppercase text-accent font-medium mb-2 tracking-wide">

@@ -12,7 +12,7 @@ const Work = () => {
             <div>
               <h2 className="h2 leading-tight text-accent">My Projects</h2>
 
-              <p className="max-w-sm mb-2 text-[18px]">
+              <p className="max-w-sm mb-2 text-sm sm:text-[18px] leading-[1.5]">
                 In my self-learning journey, I have developed two React
                 applications
                 <br />

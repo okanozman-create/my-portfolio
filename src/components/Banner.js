@@ -52,7 +52,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0"
+              className="mb-8 max-w-lg mx-auto lg:mx-0 text-sm sm:text-[18px]"
             >
               Hello, my name is Okan, and I am 36 years old. After years, I
               finally achieved my dream, and since 2022, I have been programming
@@ -69,7 +69,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">
+              <button className="btn btn-lg btn-sm">
                 <a href={resume} download="resume">
                   {" "}
                   Download CV
