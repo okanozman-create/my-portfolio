@@ -24,9 +24,9 @@ const Work = () => {
                 provides real-time weather information.
                 <br />
                 <span className="font-primary font-semibold  text-accent">
-                  Contact Form Application:
+                  Contact Form Application: 
                 </span>
-                Another React application where users fill out specific input
+                {" "}Another React application where users fill out specific input
                 fields, including mandatory data, and the information is sent to
                 an Amazon S3 bucket.
               </p>

@@ -2,8 +2,10 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Orbitron',
+      primary: 'Rajdhani',
+      // primary: 'Orbitron'
       secondary: 'Rajdhani',
+      // tertiary: 'Aldrich',
       tertiary: 'Aldrich',
     },
     container: {
@@ -23,9 +25,9 @@ module.exports = {
         accent: '#B809C3',
       },
       backgroundImage: {
-        site: "url('./assets/site-bg.jpg')",
-        about: "url('./assets/about.png')",
-        services: "url('./assets/services.png')",
+         site: "url('./assets/site-bg.jpg')",
+        // about: "url('./assets/about.png')",
+        // services: "url('./assets/services.png')",
         ex:"url('./assets/ex.jpg')"
       },
     },
