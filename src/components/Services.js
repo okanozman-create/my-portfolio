@@ -43,26 +43,38 @@ const Services = () => {
               I'am a Freelance <br/>Web Developer.
             </h3> */}
             {/* <button className="btn btn-sm">See my work</button> */}
-            <h2 className="h2 text-accent mb-6 mt-8">Skills</h2>
+            <h2 className="h2 text-accent mb-6 text-3xl sm:text-5xl">Skills</h2>
             <div className="flex flex-col">
-              <span className="font-primary font-semibold text-sm sm:text-[24px] mb-4 leading-[46px]">
+
+              {/* <span className="font-primary font-medium text-sm sm:text-[24px] mb-4 leading-[46px]">
                 React
-              </span>
-              <span className="font-primary font-semibold text-sm sm:text-[24px] mb-4 leading-[46px]">
+              </span> */}
+
+                <h2 className="h2 text-[18px] sm:text-[32px]">
+                React
+              </h2> 
+{/* 
+             
+              <span className="font-primary font-medium text-sm sm:text-[24px] mb-4 leading-[46px]">
                 Vanillia JavaScript
-              </span>
-              <span className="font-primary font-semibold text-sm sm:text-[24px] mb-4 leading-[46px]">
+              </span> */}
+
+              
+              <h2 className="h2 text-[18px] sm:text-[32px]">
+                Vanillia JavaScript
+              </h2>
+              <h2 className="h2 text-[18px] sm:text-[32px]">
                 Tailwind CSS
-              </span>
-              <span className="font-primary font-semibold text-sm sm:text-[24px] mb-4 leading-[46px]">
+              </h2>
+              <h2 className="h2 text-[18px] sm:text-[32px]">
                 CSS
-              </span>
-              <span className="font-primary font-semibold text-sm sm:text-[24px] mb-4 leading-[46px]">
+              </h2>
+              <h2 className="h2 text-[18px] sm:text-[32px]">
                 HTML
-              </span>
-              <span className="font-primary font-semibold text-sm sm:text-[24px] mb-4 leading-[46px]">
+              </h2>
+              <h2 className="h2 text-[18px] sm:text-[32px]">
                 AWS Services
-              </span>
+              </h2>
             </div>
           </motion.div>
           {/* services */}
@@ -84,7 +96,7 @@ const Services = () => {
                     className="border-b border-white/20 h-auto md:h-[146px] mb-[24px] flex flex-col md:flex-row"
                     key={index}
                   >
-                    <div className="w-full md:max-w-[476px] flex flex-col justify-center">
+                    <div className="w-full md:max-w-[476px] flex flex-col justify-center text-3xl sm:text-5xl">
                       <h2 className="h2">
                         {name}
                       </h2>
