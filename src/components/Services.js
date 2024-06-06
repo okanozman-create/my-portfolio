@@ -43,8 +43,8 @@ const Services = () => {
               I'am a Freelance <br/>Web Developer.
             </h3> */}
             {/* <button className="btn btn-sm">See my work</button> */}
-            <h2 className="h2 text-accent mb-6 text-3xl sm:text-5xl">Skills</h2>
-            <div className="flex flex-col">
+            <h2 className="h2 text-accent mb-6 text-3xl sm:text-5xl text-center sm:text-left">Skills</h2>
+            <div className="flex flex-col text-center sm:text-left">
 
               {/* <span className="font-primary font-medium text-sm sm:text-[24px] mb-4 leading-[46px]">
                 React
