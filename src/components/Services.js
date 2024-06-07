@@ -29,52 +29,29 @@ const Services = () => {
   return (
     <section className="section" id="services">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col lg:flex-row items-center justify-center">
           {/* text &  image */}
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0"
+            className="mb-12 flex-1 bg-no-repeat mix-blend-lighten lg:mb-0 lg:bg-bottom"
+          
           >
-            {/* <h2 className="h2 text-accent mb-6">What I Do.</h2>
-            <h3 className="h3 max-w-[455px] mb-16 text-base sm:text-[24px] leading-[1.5]">
-              I'am a Freelance <br/>Web Developer.
-            </h3> */}
-            {/* <button className="btn btn-sm">See my work</button> */}
-            <h2 className="h2 text-accent mb-6 text-3xl sm:text-5xl text-center sm:text-left">Skills</h2>
+            <h2 className="h2 mb-6 text-center text-3xl text-accent sm:text-left sm:text-5xl">
+              Skills
+            </h2>
             <div className="flex flex-col text-center sm:text-left">
+              <h2 className="h2 text-[18px] sm:text-[32px]">React</h2>
 
-              {/* <span className="font-primary font-medium text-sm sm:text-[24px] mb-4 leading-[46px]">
-                React
-              </span> */}
-
-                <h2 className="h2 text-[18px] sm:text-[32px]">
-                React
-              </h2> 
-{/* 
-             
-              <span className="font-primary font-medium text-sm sm:text-[24px] mb-4 leading-[46px]">
-                Vanillia JavaScript
-              </span> */}
-
-              
               <h2 className="h2 text-[18px] sm:text-[32px]">
                 Vanillia JavaScript
               </h2>
-              <h2 className="h2 text-[18px] sm:text-[32px]">
-                Tailwind CSS
-              </h2>
-              <h2 className="h2 text-[18px] sm:text-[32px]">
-                CSS
-              </h2>
-              <h2 className="h2 text-[18px] sm:text-[32px]">
-                HTML
-              </h2>
-              <h2 className="h2 text-[18px] sm:text-[32px]">
-                AWS Services
-              </h2>
+              <h2 className="h2 text-[18px] sm:text-[32px]">Tailwind CSS</h2>
+              <h2 className="h2 text-[18px] sm:text-[32px]">CSS</h2>
+              <h2 className="h2 text-[18px] sm:text-[32px]">HTML</h2>
+              <h2 className="h2 text-[18px] sm:text-[32px]">AWS Services</h2>
             </div>
           </motion.div>
           {/* services */}
@@ -93,14 +70,12 @@ const Services = () => {
                 return (
                   <div
                     // className="border-b border-white/20 h-auto md:h-[146px] mb-[38px] flex"
-                    className="border-b border-white/20 h-auto md:h-[146px] mb-[24px] flex flex-col md:flex-row"
+                    className="mb-[24px] flex h-auto flex-col border-b border-white/20 md:h-[146px] md:flex-row"
                     key={index}
                   >
-                    <div className="w-full md:max-w-[476px] flex flex-col justify-center text-3xl sm:text-5xl">
-                      <h2 className="h2">
-                        {name}
-                      </h2>
-                      <p className="font-secondary leading-tight mb-4 text-sm sm:text-[18px]">
+                    <div className="flex w-full flex-col justify-center text-3xl sm:text-5xl md:max-w-[476px]">
+                      <h2 className="h2">{name}</h2>
+                      <p className="mb-4 font-secondary text-sm leading-tight sm:text-[18px]">
                         {description}
                       </p>
                     </div>
