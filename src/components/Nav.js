@@ -26,7 +26,7 @@ const Nav = () => {
             <BsBriefcase />
           </Link>
 
-          <Link to="contact" smooth={true} spy={true} className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
+          <Link to="contact" smooth={true} spy={true}    className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
             < BsChatSquare />
           </Link>
         </div>
