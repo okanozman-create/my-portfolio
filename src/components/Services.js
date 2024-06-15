@@ -39,19 +39,19 @@ const Services = () => {
             className="mb-12 flex-1 bg-no-repeat mix-blend-lighten lg:mb-0 lg:bg-bottom"
           
           >
-            <h2 className="h2 mb-6 text-center text-3xl text-accent sm:text-left sm:text-5xl">
+            <h2 className="h2 mb-6 text-center text-3xl italic text-accent sm:text-left sm:text-5xl">
               Skills
             </h2>
             <div className="flex flex-col text-center sm:text-left">
-              <h2 className="h2 text-[18px] sm:text-[32px]">React</h2>
+              <h4 className="h4 text-[18px] sm:text-[32px]">React</h4>
 
-              <h2 className="h2 text-[18px] sm:text-[32px]">
+              <h4 className="h4 text-[18px] sm:text-[32px]">
                 Vanillia JavaScript
-              </h2>
-              <h2 className="h2 text-[18px] sm:text-[32px]">Tailwind CSS</h2>
-              <h2 className="h2 text-[18px] sm:text-[32px]">CSS</h2>
-              <h2 className="h2 text-[18px] sm:text-[32px]">HTML</h2>
-              <h2 className="h2 text-[18px] sm:text-[32px]">AWS Services</h2>
+              </h4>
+              <h4 className="h4  text-[18px] sm:text-[32px]">Tailwind CSS</h4>
+              <h4 className="h4 text-[18px] sm:text-[32px]">CSS</h4>
+              <h4 className="h4 text-[18px] sm:text-[32px]">HTML</h4>
+              <h4 className="h4 text-[18px] sm:text-[32px]">AWS Services</h4>
             </div>
           </motion.div>
           {/* services */}

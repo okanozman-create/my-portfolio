@@ -6,7 +6,7 @@ module.exports = {
       // primary: 'Orbitron'
       secondary: 'Rajdhani',
       // tertiary: 'Aldrich',
-      tertiary: 'Aldrich',
+      tertiary: 'Pacifico',
     },
     container: {
       padding: {
