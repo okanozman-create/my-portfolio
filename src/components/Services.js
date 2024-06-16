@@ -39,19 +39,19 @@ const Services = () => {
             className="mb-12 flex-1 bg-no-repeat mix-blend-lighten lg:mb-0 lg:bg-bottom"
           
           >
-            <h2 className="h2 mb-6 text-center text-3xl italic text-accent sm:text-left sm:text-5xl">
+            <h2 className="h2 mb-6 text-center text-[22px] sm:text-[34px] italic text-accent sm:text-left">
               Skills
             </h2>
             <div className="flex flex-col text-center sm:text-left">
-              <h4 className="h4 text-[18px] sm:text-[32px]">React</h4>
+              <h4 className="h2 text-[18px] sm:text-[30px]">React</h4>
 
-              <h4 className="h4 text-[18px] sm:text-[32px]">
+              <h4 className="h2 text-[18px] sm:text-[30px]">
                 Vanillia JavaScript
               </h4>
-              <h4 className="h4  text-[18px] sm:text-[32px]">Tailwind CSS</h4>
-              <h4 className="h4 text-[18px] sm:text-[32px]">CSS</h4>
-              <h4 className="h4 text-[18px] sm:text-[32px]">HTML</h4>
-              <h4 className="h4 text-[18px] sm:text-[32px]">AWS Services</h4>
+              <h4 className="h2  text-[18px] sm:text-[30px]">Tailwind CSS</h4>
+              <h4 className="h2 text-[18px] sm:text-[30px]">CSS</h4>
+              <h4 className="h2 text-[18px] sm:text-[30px]">HTML</h4>
+              <h4 className="h2 text-[18px] sm:text-[30px]">AWS Services</h4>
             </div>
           </motion.div>
           {/* services */}
@@ -74,7 +74,7 @@ const Services = () => {
                     key={index}
                   >
                     <div className="flex w-full flex-col justify-center text-3xl sm:text-5xl md:max-w-[476px]">
-                      <h2 className="h2">{name}</h2>
+                      <h2 className="h2 text-[18px] sm:text-[30px]">{name}</h2>
                       <p className="mb-4 font-secondary text-sm leading-tight sm:text-[18px]">
                         {description}
                       </p>

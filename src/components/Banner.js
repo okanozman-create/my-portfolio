@@ -41,7 +41,7 @@ const Banner = () => {
               <span className="text-white mr-4">I am a </span>
               <TypeAnimation
                 sequence={["Developer", 2000]}
-                speed={50}
+                speed={1}
                 className="text-accent"
                 wrapper="span"
                 repeat={Infinity}
